@@ -42,7 +42,7 @@ GxEPD2_BW<GxEPD2_290_T94, GxEPD2_290_T94::HEIGHT>
   display(GxEPD2_290_T94(EPD_CS, EPD_DC, EPD_RST, EPD_BUSY));
 
 // --- Display refresh interval ---
-#define DISPLAY_INTERVAL_MS (5UL * 60UL * 1000UL)  // 5 minutes
+#define DISPLAY_INTERVAL_MS (10UL * 1000UL)  // 10 seconds
 unsigned long lastDisplayUpdate = 0;
 
 // -----------------------------------------------------------------------
